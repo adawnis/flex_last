@@ -29,9 +29,11 @@ body, .nav__list, .nav__list-links{
 }
 /*NAVBAR STYLING ENDS*/
 
+
+/*BANNER STYLING STARTS*/
 .banner{
 	background-color: #CCC;
-	/*background-image: url(http://via.placeholder.com/1150x350);*/
+	/*background-image: url(http://via.placeholder.com/1150x350);*/	
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -51,3 +53,27 @@ body, .nav__list, .nav__list-links{
 	font-size: 40px;
 	font-weight: 900;
 }
+/*BANNER STYLING ENDS*/
+
+
+/*COLUMNS STYLING STARTS*/
+.columns__container{
+	margin: 0 auto;
+	max-width: 1011px;
+	width: 100%;
+}
+
+.columns__row, .columns__d-flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.columns__column, .columns__column100{
+	flex: 0 0 100%;
+}
+
+.columns__column50{
+	flex: 0 0 50%;
+}
+
+
